@@ -2,6 +2,11 @@ import React from 'react'
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <>
+        <section>
+            <h1>Bienvenue sur mon portfolio</h1>
+            <p>Je suis un développeur passionné par le web .</p>
+        </section>
+    </>
   )
 }
