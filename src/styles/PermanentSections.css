@@ -1,9 +1,10 @@
 .horizontal-sections {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
   overflow: hidden;
   margin-top: 20px;
+  margin-left: 30px;
 }
 
 .section {

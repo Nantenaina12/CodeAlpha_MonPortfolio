@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/PermanentSections.css';
+import fst from "../assets/fst.png"
+import imagefst from "../assets/imagefst.jpg"
 
 export default function About() {
   const [animationStage, setAnimationStage] = useState({
@@ -22,11 +24,16 @@ export default function About() {
 
   return (
     <>
-    <div className='flex flex-col items-center text-xl px-3 py-6'>
-        <h1>À propos de moi</h1>
+    <div className='flex flex-col items-center text-xl px-9 py-6'>
+        <h1 className='mb-2 text-2xl text-blue-950'>À propos de moi</h1>
         <p>
-        Je suis un développeur passionné, spécialisé en développement web et mobile.
-        J’aime créer des applications modernes, performantes et faciles à utiliser.
+        Je suis étudiant titulaire d'un <strong>DEUST</strong>(Diplôme d'Etudes Universitaires en Sciences et Techniques ). Actuellement,je passe en 2ème année du cycle d'ingénieur de la filière Géoinformation à la <strong style={{color:"blue"}}>Faculté des Sciences et Techniques de Tanger</strong>.
+        </p>
+        <div className='flex flex-row gap-6 items-center justify-center'>
+            <a className='lien-fst' href='https://fstt.ac.ma/Portail2023' target='blancket'><img className='h-50 w-100' src={fst}></img></a>
+            <img src={imagefst} className='h-50' w-90></img>
+        </div>
+        <p>Tout ce qui concerne l'informatique m'inspire beaucoup notamment développement web car peu importe les solutions que je proposerai dans le futur en tant que futur ingénieur sera sous forme web ou bien mobile, j'adore créer des applications modernes, performantes. Je possède des capacités de résoudre des problèmes parce que je savoure les défis.
         </p>
 
     </div>

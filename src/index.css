@@ -1,2 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui";
+.lien-fst{
+  transition: 0.3s;
+}
+.lien-fst:hover{
+  transform: scale(1.2);
+}

@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <main style={{ minHeight: "80vh", padding: "5px" }} >
+      <main style={{ minHeight: "100vh", padding: "5px",marginTop:"5px" }} >
         <Outlet />
       </main>
       <Footer/>
