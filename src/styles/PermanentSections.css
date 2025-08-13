@@ -1,0 +1,53 @@
+.horizontal-sections {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.section {
+  width: 30%;
+  padding: 2rem;
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Position initiale */
+.start-left {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+/* Animation Section 1: Vers la droite */
+.slide-to-right {
+  animation: slideRight 1s forwards;
+}
+
+@keyframes slideRight {
+  0% { transform: translateX(-100%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+/* Animation Section 2: Vers le centre */
+.slide-to-center {
+  animation: slideCenter 1s forwards;
+}
+
+@keyframes slideCenter {
+  0% { transform: translateX(-100%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+/* Animation Section 3: Vers la gauche */
+.slide-to-left {
+  animation: slideLeft 1s forwards;
+}
+
+@keyframes slideLeft {
+  0% { transform: translateX(-100%); opacity: 0; }
+  70% { transform: translateX(20px); opacity: 1; }
+  100% { transform: translateX(0); opacity: 1; }
+}

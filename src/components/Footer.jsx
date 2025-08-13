@@ -5,7 +5,7 @@ export default function Footer() {
     <>
         <footer className="footer footer-horizontal footer-center bg-neutral text-primary-content p-10">
 
-            <p>© {new Date().getFullYear()} Orlando - Tous droits réservés</p>
+            <p style={{fontSize:"17px"}}>© {new Date().getFullYear()} Orlando - Tous droits réservés</p>
             <div className="grid grid-flow-col gap-4">
                 <a
         href="https://www.linkedin.com/in/orlando-nantenaina-4aa964353/"
