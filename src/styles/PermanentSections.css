@@ -1,15 +1,17 @@
 .horizontal-sections {
   display: flex;
-  justify-content: space-between;
-  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
   overflow: hidden;
   margin-top: 20px;
-  margin-left: 30px;
+  margin-left: 80px;
+  margin-bottom: 20px;
 }
 
 .section {
   width: 30%;
-  padding: 2rem;
+  padding: 1.5rem;
   background-color: #f0f8ff;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

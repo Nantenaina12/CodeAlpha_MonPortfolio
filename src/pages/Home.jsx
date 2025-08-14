@@ -6,7 +6,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 1300); // 1.3 secondes de chargement
+    const timer = setTimeout(() => setIsLoading(false), 800); // 0.8 seconde de chargement
     return () => clearTimeout(timer);
   }, []);
 
