@@ -1,9 +1,10 @@
 import React from 'react'
+import { FiPhone } from "react-icons/fi";
 
 export default function Footer() {
   return (
     <>
-        <footer className="footer footer-horizontal footer-center bg-neutral text-primary-content p-10">
+        <footer className="footer footer-horizontal footer-center bg-neutral text-primary-content p-5">
 
             <p style={{fontSize:"17px"}}>© {new Date().getFullYear()} Orlando - Tous droits réservés</p>
             <div className="grid grid-flow-col gap-4">
@@ -63,23 +64,7 @@ export default function Footer() {
             </svg>
         GitHub
              </a>
-                  <a
-        href="mailto:nantenainaorlando1@gmail.com" // Remplace par ton adresse e-mail
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center gap-2 px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-full transition duration-300"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          fill="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path d="M12 13.5L2.25 6v12h19.5V6L12 13.5zM12 11.25L21.75 4.5H2.25L12 11.25z" />
-        </svg>
-        Gmail
-      </a>
+
                 <a
         href="https://wa.me/+212651065121"  // Remplace par ton numéro au format international, ex: 33612345678
         target="_blank"
@@ -98,6 +83,10 @@ export default function Footer() {
         WhatsApp
       </a>
         </div>
+         <h1 className="flex items-center justify-center text-xl font-semibold text-white mt-1">
+      <FiPhone className="mr-2 text-green-500" size={22} />
+      +212 6 51 06 51 21
+    </h1>
         </footer>
     </>
   )
