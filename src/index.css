@@ -34,3 +34,53 @@
   }
 
 }
+
+/* Responsive pour mobile (moins de 768px) */
+@media (max-width: 768px) {
+  .p3d-card {
+    width: 240px; /* Largeur réduite */
+    height: 220px; /* Hauteur réduite */
+    margin: -120px 0 0 -120px; /* Centrage avec nouvelle taille */
+  }
+
+  /* Centrage des boutons CTA */
+  .p3d-cta {
+    justify-content: center;
+  }
+
+  /* Centrage des flèches de navigation */
+  .p3d-controls {
+    justify-content: center; /* Centre tout le bloc */
+    gap: 17px; /* Espace entre les flèches */
+  }
+
+  .p3d-arrow {
+    width: 36px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  /* Points indicateurs centrés et rapprochés */
+  .p3d-dots {
+    bottom: -16px;
+    gap: 6px;
+  }
+
+  /* Titre plus petit */
+  .p3d-title {
+    font-size: 14px;
+  }
+
+  /* Tags plus petits */
+  .p3d-tag {
+    font-size: 11px;
+    padding: 2px 6px;
+  }
+
+  /* Boutons CTA plus compacts */
+  .p3d-btn {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+}
+

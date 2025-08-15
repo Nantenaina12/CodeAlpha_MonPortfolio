@@ -186,6 +186,7 @@ export default function Projects3DCarousel({
     .p3d-dot.active {
       background: #e2e8f0;
     }
+
   `;
 
   return (
