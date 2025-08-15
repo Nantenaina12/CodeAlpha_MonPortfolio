@@ -92,6 +92,7 @@ export default function ContactForm() {
           Envoyer
         </button>
       </form>
+  
     </div>
   );
 }
