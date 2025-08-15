@@ -63,5 +63,31 @@
   }
   .section {
     width: 90%;
+    color: black;
+  }
+}
+@media (max-width: 768px) {
+  .horizontal-sections {
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+
+  .card-body > div {
+    flex-direction: column; /* empile image + texte */
+    align-items: center;
+    text-align: center;
+  }
+
+  .card-body img {
+    width: 70%; /* image plus petite */
+    margin-bottom: 0.5rem;
+  }
+
+  .card-body ul {
+    padding-left: 0;
+  }
+
+  .bouton-telechargement {
+    width: 80%;
   }
 }
