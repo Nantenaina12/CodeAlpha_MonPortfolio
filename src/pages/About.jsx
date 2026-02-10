@@ -82,14 +82,11 @@ export default function About() {
         {/* Texte à gauche */}
         <motion.p variants={childVariants} className="max-w-xl text-lg">
           Je suis étudiant titulaire d'un <strong>DEUST</strong> (Diplôme d'Études Universitaires en Sciences et Techniques). 
-          Actuellement, je passe en 2ème année du cycle d'ingénieur de la filière Géoinformation à la 
+          Actuellement, je suis en 2ème Année cycle d'ingénieur en Géoinforùmation à la 
           <strong style={{ color: "blue" }}> Faculté des Sciences et Techniques de Tanger</strong>.
-          Tout ce qui concerne l'informatique m'inspire beaucoup, notamment le développement web, car 
-          peu importe les solutions que je proposerai dans le futur en tant que futur ingénieur, elles seront 
-          sous forme web ou mobile. J'adore créer des applications modernes et performantes, et je possède 
-          des capacités à résoudre des problèmes car je savoure les défis.
+          Savez vous que la géomatique est devenue des outils qui aident à répondre aux problématiques liées aux données géographiques.
+          C'est la raison pour laquelle les universités forment des géomaticiens et je fais partie. J'ai déjà appris pas mal des disciplines qui englobent la formation notamment l'acquisition, le traitement des données géographiques.Il est indéniable que l'informatique est toujours indispensable pour nous aider surtout en traitement et en restitution de l'information géographique.
         </motion.p>
-
         {/* Images à droite */}
         <div className="flex flex-col justify-center items-center mr-10 ">
           <motion.a
@@ -121,9 +118,10 @@ export default function About() {
                 <img src={compétence} className="h-40 w-90" alt="Compétences" />
               </div>
               <ul className="flex flex-col gap-2 text-xl">
+                <li>PostGIS,ArcGIS,QGIS</li>
                 <li>HTML, CSS, JavaScript</li>
                 <li>React, TailwindCSS</li>
-                <li>Python, MySQL</li>
+                <li>Python, MySQL,PostGreSql</li>
               </ul>
             </div>
           </div>
@@ -139,8 +137,8 @@ export default function About() {
               </div>
               <ul className="flex flex-col gap-2 text-xl">
                 <li>Travail en équipe</li>
-                <li>Prudence</li>
-                <li>Rigueur</li>
+                <li>Leardership</li>
+                <li>Réactif</li>
               </ul>
             </div>
           </div>
