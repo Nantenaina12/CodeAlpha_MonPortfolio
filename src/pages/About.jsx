@@ -82,9 +82,9 @@ export default function About() {
         {/* Texte à gauche */}
         <motion.p variants={childVariants} className="max-w-xl text-lg">
           Je suis étudiant titulaire d'un <strong>DEUST</strong> (Diplôme d'Études Universitaires en Sciences et Techniques). 
-          Actuellement, je suis en 2ème Année cycle d'ingénieur en Géoinforùmation à la 
+          Actuellement, je suis en 2ème Année cycle d'ingénieur en Géoinformation à la 
           <strong style={{ color: "blue" }}> Faculté des Sciences et Techniques de Tanger</strong>.
-          Savez vous que la géomatique est devenue des outils qui aident à répondre aux problématiques liées aux données géographiques.
+          Savez vous que la géomatique est devenue un outil qui aide à répondre aux problématiques liées aux données géographiques?
           C'est la raison pour laquelle les universités forment des géomaticiens et je fais partie. J'ai déjà appris pas mal des disciplines qui englobent la formation notamment l'acquisition, le traitement des données géographiques.Il est indéniable que l'informatique est toujours indispensable pour nous aider surtout en traitement et en restitution de l'information géographique.
         </motion.p>
         {/* Images à droite */}
