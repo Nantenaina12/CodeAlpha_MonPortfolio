@@ -5,7 +5,7 @@ import fst from "../assets/fst.png";
 import imagefst from "../assets/imagefst.jpg";
 import compétence from "../assets/compétence.png";
 import soft from "../assets/soft2.png";
-import cv from "../assets/ciriculum.png";
+import cv from "../assets/Ciriculum.png";
 
 export default function About() {
   const [isLoading, setIsLoading] = useState(true);
