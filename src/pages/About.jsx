@@ -149,7 +149,7 @@ export default function About() {
           <div className="flex flex-col items-center gap-2">
             <img src={cv} className="rounded-2xl h-60 w-60" alt="CV" />
             <a
-             href="https://drive.google.com/uc?export=download&id=1U8HRpDaSl0lM_ij0Q3tRrWmo32-C_tRE" download className="bouton-telechargement w-60 text-center">
+             href="https://drive.google.com/uc?export=download&id=1gZdSxjtzTehTRqo3-Vwqr1aLjHw-zBVD" download className="bouton-telechargement w-60 text-center">
               Télécharger mon CV
             </a>
           </div>
